@@ -1,0 +1,96 @@
+* {
+  background-color: #EAF4F9;
+  color: #C8C4C2;
+}
+
+.welcome-container {
+  background-color: white;
+  left: 25%;
+  bottom: 25%;
+  right: 25%;
+  top: 25%;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  box-shadow: 3px 3px #C8C4C2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  width: 350px;
+  height: 390px;
+  flex-wrap: wrap;
+}
+
+.welcome-back {
+  background-color: white;
+  text-transform: uppercase;
+  color: #7A7376;
+  padding-top: 10px;
+}
+
+.sign-in {
+  background-color: white;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.sign-in-button {
+  background-color: #3598DB;
+  color: white;
+  display: block;
+  justify-content: center;
+  width: 250px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.contact-form-email {
+  border: 0px;
+  background-color: white;
+  justify-content: center;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  font-size: 15px;
+  border-bottom: 1px solid #C8C4C2;
+  padding: 10px;
+}
+
+.contact-form-password {
+  border: 0px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  float: center;
+  width: 250px;
+  margin: auto;
+  font-size: 15px;
+  border-bottom: 1px solid #C8C4C2;
+  padding: 10px;
+}
+
+a {
+  background-color: white;
+  color: #C8C4C2;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.form-sign-in {
+  display: flex;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding: 20px;
+}
+
+.no-account {
+  padding: 10px;
+}
